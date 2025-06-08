@@ -242,7 +242,12 @@ nav.wrapper-preview-menu {
       display: none;
   }
   .copyright {
-      display: none;
+      //display: none;
+      margin: 0 auto;
+      font-size: 1.2rem;
+      color: white;
+      margin-top: 50px;
+      text-align: center;
   }
   .nav-legal ul {
       display: inline-block;
