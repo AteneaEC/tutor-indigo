@@ -14,7 +14,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700");
 /* line 17, common/static/sass/_builtin-block-variables.scss */
 :root {
-  --action-primary-active-bg: #15376D;
+  --action-primary-active-bg: #1877F2;
   --base-font-size: 18px;
   --base-line-height: 1.5em;
   --baseline: 20px;
@@ -37,7 +37,7 @@
   --error-color-light: #f95861;
   --font-bold: 700;
   --font-family-sans-serif: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --general-color-accent: #15376D;
+  --general-color-accent: #1877F2;
   --gray: #767676;
   --gray-300: #d9d9d9;
   --gray-d1: #5e5e5e;
@@ -57,13 +57,13 @@
   --link-color: #1b6d99;
   --medium-font-size: 0.9em;
   --partially-correct: #008100;
-  --primary: #15376D;
+  --primary: #1877F2;
   --shadow: rgba(0, 0, 0, 0.2);
   --shadow-l1: rgba(0, 0, 0, 0.1);
   --sidebar-color: #f6f6f6;
   --small-font-size: 80%;
   --static-path: "..";
-  --submitted: #15376D;
+  --submitted: #1877F2;
   --success: #008100;
   --tmg-f2: 0.25s;
   --tmg-s2: 2s;
@@ -572,7 +572,7 @@ footer#footer-edx-v3 {
     font-size: 14px;
     line-height: 20.72px;
     margin-right: 20px;
-    color: #15376D; }
+    color: #1877F2; }
     /* line 206, /openedx/edx-platform/lms/static/sass/shared/_footer-edx.scss */
     footer#footer-edx-v3 .site-nav li:last-of-type,
     footer#footer-edx-v3 .legal-notices li:last-of-type {
@@ -643,7 +643,7 @@ footer#footer-edx-v3 {
   footer#footer-edx-v3 .icon {
     font-family: 'FontAwesome';
     font-style: normal;
-    color: #15376D; }
+    color: #1877F2; }
   /* line 283, /openedx/edx-platform/lms/static/sass/shared/_footer-edx.scss */
   footer#footer-edx-v3 a.sm-link {
     float: left;
@@ -1367,7 +1367,7 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 
 /* line 220, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 .view-profile .wrapper-profile-section-container-one .wrapper-profile-section-one {
-  border: solid #15376D;
+  border: solid #1877F2;
   border-width: 5px 1px 1px 1px; }
 
 /* line 226, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
@@ -1380,7 +1380,7 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 
 /* line 232, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 .wrapper-account-settings .wrapper-header .account-nav button.active {
-  border-bottom-color: #15376D; }
+  border-bottom-color: #1877F2; }
 
 /* line 237, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 .wrapper-footer {
@@ -1457,7 +1457,7 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
     margin: 0 0 20px; }
   /* line 308, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   .container.about a {
-    color: #15376D;
+    color: #1877F2;
     text-decoration: underline; }
   /* line 312, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   .container.about .graphic-img {
@@ -1484,43 +1484,48 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   /* line 336, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   .wrapper-course-material[aria-label="Course Material"] .tabs.course-tabs {
     margin: 0 0 10px;
-    border-bottom: 1px solid #E5E7EB;
-    padding: 0; }
-    /* line 340, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    border-bottom: 2px solid #ed6c4d;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; }
+    /* line 342, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     .wrapper-course-material[aria-label="Course Material"] .tabs.course-tabs li {
-      margin: 0 32px 0 0; }
-      /* line 343, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      margin: 0 0px 0 0;
+      background-color: lightgray; }
+      /* line 345, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       .wrapper-course-material[aria-label="Course Material"] .tabs.course-tabs li.more {
         margin-right: 0; }
-      /* line 347, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 349, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       .wrapper-course-material[aria-label="Course Material"] .tabs.course-tabs li button {
         border: 0;
         background: none; }
-      /* line 352, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 354, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       .wrapper-course-material[aria-label="Course Material"] .tabs.course-tabs li a,
       .wrapper-course-material[aria-label="Course Material"] .tabs.course-tabs li button {
         border-width: 2px;
         font-size: 14px;
         font-weight: 500;
-        color: #374151; }
-        /* line 358, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+        color: white; }
+        /* line 361, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
         .wrapper-course-material[aria-label="Course Material"] .tabs.course-tabs li a:hover, .wrapper-course-material[aria-label="Course Material"] .tabs.course-tabs li a:visited,
         .wrapper-course-material[aria-label="Course Material"] .tabs.course-tabs li button:hover,
         .wrapper-course-material[aria-label="Course Material"] .tabs.course-tabs li button:visited {
-          color: #212529;
+          background-color: transparent;
+          color: white;
           border-color: transparent; }
-        /* line 362, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+        /* line 366, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
         .wrapper-course-material[aria-label="Course Material"] .tabs.course-tabs li a.active,
         .wrapper-course-material[aria-label="Course Material"] .tabs.course-tabs li button.active {
-          color: #212529;
-          border-color: #15376D; }
+          background-color: #ed6c4d;
+          color: white;
+          border-color: #ed6c4d; }
 
-/* line 373, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 378, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.view-statictab #main .container, body.view-instructordash #main .container, body.view-teams #main .container, body.view-wiki #main .container,
 body.view-student-notes #main .container {
   padding: 0; }
 
-/* line 376, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 381, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.view-statictab #main .static_tab_wrapper, body.view-instructordash #main .static_tab_wrapper, body.view-teams #main .static_tab_wrapper, body.view-wiki #main .static_tab_wrapper,
 body.view-student-notes #main .static_tab_wrapper {
   border: none;
@@ -1530,101 +1535,101 @@ body.view-student-notes #main .static_tab_wrapper {
   box-sizing: border-box;
   background: no-repeat; }
 
-/* line 385, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 390, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.view-statictab .container.about, body.view-instructordash .container.about, body.view-teams .container.about, body.view-wiki .container.about,
 body.view-student-notes .container.about {
   color: #DDDFE2; }
-  /* line 387, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 392, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-statictab .container.about h1, body.view-instructordash .container.about h1, body.view-teams .container.about h1, body.view-wiki .container.about h1,
   body.view-student-notes .container.about h1 {
     color: #AEC7F6; }
-  /* line 390, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 395, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-statictab .container.about a, body.view-instructordash .container.about a, body.view-teams .container.about a, body.view-wiki .container.about a,
   body.view-student-notes .container.about a {
     color: #AEC7F6; }
-  /* line 394, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 399, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-statictab .container.about .graphic-img img, body.view-instructordash .container.about .graphic-img img, body.view-teams .container.about .graphic-img img, body.view-wiki .container.about .graphic-img img,
   body.view-student-notes .container.about .graphic-img img {
     display: none; }
-    /* line 396, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 401, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-statictab .container.about .graphic-img img.dark, body.view-instructordash .container.about .graphic-img img.dark, body.view-teams .container.about .graphic-img img.dark, body.view-wiki .container.about .graphic-img img.dark,
     body.view-student-notes .container.about .graphic-img img.dark {
       display: block; }
 
-/* line 403, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 408, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.view-statictab .wrapper-member-select, body.view-instructordash .wrapper-member-select, body.view-teams .wrapper-member-select, body.view-wiki .wrapper-member-select,
 body.view-student-notes .wrapper-member-select {
   background: #F2F7F8 !important; }
-  /* line 405, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 410, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-statictab .wrapper-member-select select, body.view-instructordash .wrapper-member-select select, body.view-teams .wrapper-member-select select, body.view-wiki .wrapper-member-select select,
   body.view-student-notes .wrapper-member-select select {
     background: none;
     color: dark; }
 
-/* line 411, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 416, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.view-statictab .member-list .label, body.view-instructordash .member-list .label, body.view-teams .member-list .label, body.view-wiki .member-list .label,
 body.view-student-notes .member-list .label {
   color: dark !important;
   background: #F2F7F8 !important; }
 
-/* line 416, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 421, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.view-statictab .bottom-bar, body.view-instructordash .bottom-bar, body.view-teams .bottom-bar, body.view-wiki .bottom-bar,
 body.view-student-notes .bottom-bar {
   background: #F2F7F8 !important; }
-  /* line 418, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 423, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-statictab .bottom-bar input[type="button"], body.view-instructordash .bottom-bar input[type="button"], body.view-teams .bottom-bar input[type="button"], body.view-wiki .bottom-bar input[type="button"],
   body.view-student-notes .bottom-bar input[type="button"] {
-    background: #15376D !important;
-    border-color: #15376D !important;
+    background: #1877F2 !important;
+    border-color: #1877F2 !important;
     color: white !important;
     text-shadow: none !important;
     font-size: 14px;
     font-weight: 500; }
 
-/* line 429, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 434, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.view-teams .container {
   max-width: 1600px !important;
   padding: 0 15px !important;
   margin: 0 auto; }
-  /* line 433, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 438, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-teams .container > div {
     border: none;
     background: none; }
 
-/* line 440, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 445, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.view-instructordash .container {
   max-width: 1600px !important;
   padding: 0 15px !important;
   margin: 0 auto; }
-  /* line 444, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 449, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-instructordash .container > div {
     border: none;
     background: none; }
 
-/* line 449, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 454, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.view-instructordash .instructor-dashboard-content-2 {
   padding: 0; }
   @media (max-width: 575.98px) {
-    /* line 452, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 457, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-instructordash .instructor-dashboard-content-2 .wrap-instructor-info {
       display: block;
       text-align: right; } }
-  /* line 459, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 464, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-instructordash .instructor-dashboard-content-2 h2.instructor-dashboard-title {
     font-size: 24px;
     line-height: 30px; }
-  /* line 463, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 468, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-instructordash .instructor-dashboard-content-2 a.instructor-info-action {
-    background: #15376D;
+    background: #1877F2;
     color: white;
     margin: 0 0 10px;
     outline-offset: 3px; }
     @media (max-width: 575.98px) {
-      /* line 463, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 468, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-instructordash .instructor-dashboard-content-2 a.instructor-info-action {
         display: inline-block;
         float: none; } }
-  /* line 473, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 478, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-instructordash .instructor-dashboard-content-2 .instructor-nav {
     display: flex;
     width: 100%;
@@ -1632,7 +1637,7 @@ body.view-instructordash .instructor-dashboard-content-2 {
     border: 1px solid #E5E7EB;
     border-radius: 0;
     padding: 0 !important; }
-    /* line 483, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 488, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-instructordash .instructor-dashboard-content-2 .instructor-nav li button {
       border: none !important;
       border-radius: 0 !important;
@@ -1644,35 +1649,35 @@ body.view-instructordash .instructor-dashboard-content-2 {
       color: #374151;
       text-decoration: none !important;
       outline-offset: 3px; }
-      /* line 494, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 499, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-instructordash .instructor-dashboard-content-2 .instructor-nav li button.active-section {
-        background: #15376D !important;
+        background: #1877F2 !important;
         color: white !important; }
-      /* line 498, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 503, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-instructordash .instructor-dashboard-content-2 .instructor-nav li button:hover {
         color: #212529; }
-      /* line 501, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 506, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-instructordash .instructor-dashboard-content-2 .instructor-nav li button:focus {
         position: relative;
         z-index: 1; }
-    /* line 508, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 513, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-instructordash .instructor-dashboard-content-2 .instructor-nav li:first-of-type button {
       border: none;
       border-radius: 6px 0 0 6px; }
-    /* line 515, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 520, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-instructordash .instructor-dashboard-content-2 .instructor-nav li:last-of-type button {
       border-radius: 0 6px 6px 0; }
-    /* line 522, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 527, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-instructordash .instructor-dashboard-content-2 .instructor-nav .more-responsive-menu button {
       display: block;
       width: 100%; }
-  /* line 528, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 533, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-instructordash .instructor-dashboard-content-2 .enrollment-wrapper {
     margin: 0; }
-    /* line 530, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 535, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-instructordash .instructor-dashboard-content-2 .enrollment-wrapper table {
       width: 100%; }
-      /* line 532, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 537, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-instructordash .instructor-dashboard-content-2 .enrollment-wrapper table th, body.view-instructordash .instructor-dashboard-content-2 .enrollment-wrapper table td {
         padding: 10px;
         width: 50%;
@@ -1680,14 +1685,14 @@ body.view-instructordash .instructor-dashboard-content-2 {
         line-height: 28px;
         font-weight: 400;
         color: #111827; }
-      /* line 540, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 545, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-instructordash .instructor-dashboard-content-2 .enrollment-wrapper table .total {
         border-top: 1px solid #E5E7EB; }
-        /* line 542, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+        /* line 547, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
         body.view-instructordash .instructor-dashboard-content-2 .enrollment-wrapper table .total th, body.view-instructordash .instructor-dashboard-content-2 .enrollment-wrapper table .total td {
-          color: #15376D;
+          color: #1877F2;
           font-weight: 700; }
-  /* line 549, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 554, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-instructordash .instructor-dashboard-content-2 #course_info > h4 {
     background: #F2F7F8;
     padding: 15px 0 0 15px;
@@ -1695,41 +1700,41 @@ body.view-instructordash .instructor-dashboard-content-2 {
     color: #212529;
     font-weight: 600;
     margin-bottom: 0; }
-  /* line 557, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 562, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-instructordash .instructor-dashboard-content-2 #course_info > .enrollment-wrapper {
     padding-top: 0 !important; }
-    /* line 559, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 564, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-instructordash .instructor-dashboard-content-2 #course_info > .enrollment-wrapper .tip {
       text-align: left;
       font-size: 14px;
       font-weight: normal;
       color: #374151;
       margin-bottom: 10px; }
-  /* line 567, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 572, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-instructordash .instructor-dashboard-content-2 #course_info .enrollment-wrapper, body.view-instructordash .instructor-dashboard-content-2 .basic-wrapper, body.view-instructordash .instructor-dashboard-content-2 .course-errors-wrapper, body.view-instructordash .instructor-dashboard-content-2 .running-tasks-container {
     background: #F2F7F8;
     padding: 15px;
     margin: 0 0 30px; }
-    /* line 571, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 576, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-instructordash .instructor-dashboard-content-2 #course_info .enrollment-wrapper h4, body.view-instructordash .instructor-dashboard-content-2 .basic-wrapper h4, body.view-instructordash .instructor-dashboard-content-2 .course-errors-wrapper h4, body.view-instructordash .instructor-dashboard-content-2 .running-tasks-container h4 {
       font-size: 18px;
       color: #212529;
       font-weight: 600; }
-      /* line 575, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 580, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-instructordash .instructor-dashboard-content-2 #course_info .enrollment-wrapper h4 span, body.view-instructordash .instructor-dashboard-content-2 .basic-wrapper h4 span, body.view-instructordash .instructor-dashboard-content-2 .course-errors-wrapper h4 span, body.view-instructordash .instructor-dashboard-content-2 .running-tasks-container h4 span {
         font-size: 14px;
         font-weight: normal;
         color: #374151; }
-  /* line 582, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 587, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-instructordash .instructor-dashboard-content-2 .list-input {
     list-style: none;
     padding: 0; }
-    /* line 585, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 590, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-instructordash .instructor-dashboard-content-2 .list-input li {
       display: flex;
       font-size: 16px;
       line-height: 28px; }
-      /* line 589, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 594, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-instructordash .instructor-dashboard-content-2 .list-input li label, body.view-instructordash .instructor-dashboard-content-2 .list-input li b {
         font-weight: normal;
         font-style: normal;
@@ -1740,38 +1745,38 @@ body.view-instructordash .instructor-dashboard-content-2 {
         width: 50%;
         color: #111827; }
 
-/* line 602, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 607, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.view-instructordash .enrollment-button, body.view-instructordash input[type=button], body.view-instructordash button.btn {
-  background: #15376D;
-  border-color: #15376D;
+  background: #1877F2;
+  border-color: #1877F2;
   color: white;
   font-weight: 500;
   font-size: 14px;
   box-shadow: none; }
 
-/* line 611, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 616, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 .course-wrapper .course-content .xblock.xblock-student_view-vertical,
 .course-wrapper .course-content .xblock.xblock-public_view-vertical,
 .course-wrapper .courseware-results-wrapper .xblock.xblock-student_view-vertical,
 .course-wrapper .courseware-results-wrapper .xblock.xblock-public_view-vertical {
   max-width: 100% !important; }
 
-/* line 618, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 623, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.view-wiki .container {
   max-width: 1600px !important;
   margin: 0 auto !important;
   padding: 0 15px !important; }
-  /* line 622, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 627, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-wiki .container > div {
     background: none;
     box-shadow: none;
     border: none; }
-  /* line 628, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 633, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-wiki .container #alert_stat_bar .paragon__alert-warning {
     color: #212529;
     background: #F2F7F8;
     border: none; }
-    /* line 632, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 637, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-wiki .container #alert_stat_bar .paragon__alert-warning button.paragon__close {
       background: none !important;
       box-shadow: none !important;
@@ -1779,54 +1784,54 @@ body.view-wiki .container {
       opacity: 1 !important;
       font-size: 1.2rem;
       border: none !important; }
-  /* line 644, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 649, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-wiki .container section.wiki .diff-container table tr.insert td {
     background: #54CF5E;
     color: #F8F8F8; }
-  /* line 648, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 653, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-wiki .container section.wiki .diff-container table tr.delete td {
     background: #FFA07A;
     color: #F8F8F8; }
-  /* line 654, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 659, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-wiki .container section.wiki .table.table-striped tr:nth-child(2n) {
     background: #F2F7F8; }
-  /* line 658, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
-  body.view-wiki .container section.wiki .table.table-striped td a {
-    color: #15376D !important; }
   /* line 663, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  body.view-wiki .container section.wiki .table.table-striped td a {
+    color: #1877F2 !important; }
+  /* line 668, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-wiki .container section.wiki .directory-toolbar {
     background: #F2F7F8; }
-    /* line 665, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 670, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-wiki .container section.wiki .directory-toolbar a.btn {
-      background: #15376D !important;
-      border-color: #15376D !important;
+      background: #1877F2 !important;
+      border-color: #1877F2 !important;
       box-shadow: none !important;
       color: white !important;
       text-shadow: none; }
-  /* line 674, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 679, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-wiki .container .wiki-wrapper section.wiki .btn.btn-large, body.view-wiki .container .wiki-wrapper section.wiki .btn.btn-danger {
     background: none;
     color: #212529 !important;
     border-color: #212529 !important;
     text-shadow: none !important;
     box-shadow: none !important; }
-    /* line 680, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 685, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-wiki .container .wiki-wrapper section.wiki .btn.btn-large:hover, body.view-wiki .container .wiki-wrapper section.wiki .btn.btn-danger:hover {
       background: none !important;
       color: #212529 !important;
       border-color: #212529 !important; }
-  /* line 686, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 691, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-wiki .container .wiki-wrapper section.wiki .btn.btn-primary, body.view-wiki .container .wiki-wrapper section.wiki .btn.btn-brand {
-    background: #15376D !important;
-    border-color: #15376D !important;
+    background: #1877F2 !important;
+    border-color: #1877F2 !important;
     color: white !important;
     box-shadow: none; }
-    /* line 691, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 696, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-wiki .container .wiki-wrapper section.wiki .btn.btn-primary:hover, body.view-wiki .container .wiki-wrapper section.wiki .btn.btn-brand:hover {
-      background: #15376D !important;
-      border-color: #15376D !important;
+      background: #1877F2 !important;
+      border-color: #1877F2 !important;
       color: white !important; }
-  /* line 698, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 703, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-wiki .container .wiki .breadcrumbs-header {
     padding: 15px;
     background: #F2F7F8;
@@ -1835,13 +1840,13 @@ body.view-wiki .container {
     height: auto;
     overflow: hidden;
     margin: 0 0 30px; }
-    /* line 706, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 711, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-wiki .container .wiki .breadcrumbs-header .global-functions {
       margin: 0 0 0 10px; }
-      /* line 708, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 713, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-wiki .container .wiki .breadcrumbs-header .global-functions a.add-article-btn {
         margin: 0;
-        background: #15376D;
+        background: #1877F2;
         color: white;
         font-size: 14px;
         font-weight: 500;
@@ -1850,47 +1855,47 @@ body.view-wiki .container {
         padding: 5px 15px !important;
         line-height: 28px;
         text-shadow: none; }
-    /* line 721, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 726, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-wiki .container .wiki .breadcrumbs-header .breadcrumb {
       margin: 0; }
-      /* line 724, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 729, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-wiki .container .wiki .breadcrumbs-header .breadcrumb li:after {
         color: #6B7280; }
-      /* line 727, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 732, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-wiki .container .wiki .breadcrumbs-header .breadcrumb li a {
         font-size: 14px;
         font-weight: 500;
         color: #6B7280; }
-  /* line 735, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 740, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-wiki .container .wiki .new-article {
     padding: 10px 0; }
-  /* line 739, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 744, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-wiki .container .page-header, body.view-wiki .container h1 {
     border-bottom: none;
     font-size: 20px;
     padding: 0;
     margin: 0 0 10px; }
-  /* line 745, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 750, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.view-wiki .container .article-wrapper {
     border: 1px solid #F2F7F8;
     border-radius: 8px;
     padding: 15px; }
-    /* line 749, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 754, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-wiki .container .article-wrapper:after {
       display: block;
       clear: both;
       content: ""; }
-    /* line 754, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 759, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-wiki .container .article-wrapper .main-article {
       padding: 0;
       width: calc(100% - 240px - 40px);
       margin: 0 40px 0 0;
       font-size: 14px;
       line-height: 28px; }
-      /* line 760, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 765, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-wiki .container .article-wrapper .main-article p {
         margin: 0 0 15px; }
-      /* line 763, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 768, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-wiki .container .article-wrapper .main-article h3.entry-title {
         margin: 0 0 15px;
         font-size: 18px;
@@ -1898,150 +1903,150 @@ body.view-wiki .container {
         font-weight: 600;
         border: none;
         padding: 0; }
-    /* line 772, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 777, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.view-wiki .container .article-wrapper .article-functions {
       padding: 0;
       width: 240px; }
-      /* line 776, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 781, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-wiki .container .article-wrapper .article-functions .nav-tabs li {
         margin: 0 0 1px; }
-        /* line 778, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+        /* line 783, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
         body.view-wiki .container .article-wrapper .article-functions .nav-tabs li a {
           font-size: 14px;
           line-height: 28px;
           font-weight: 500;
-          color: #15376D;
+          color: #1877F2;
           padding: 6px 10px; }
-          /* line 784, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+          /* line 789, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
           body.view-wiki .container .article-wrapper .article-functions .nav-tabs li a:hover {
             text-decoration: none;
             font-weight: 500;
             border: none;
             background: #F2F7F8; }
-          /* line 790, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+          /* line 795, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
           body.view-wiki .container .article-wrapper .article-functions .nav-tabs li a .icon {
             font-size: 18px;
             line-height: 28px;
             color: #82919B;
             margin: 0; }
-        /* line 798, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+        /* line 803, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
         body.view-wiki .container .article-wrapper .article-functions .nav-tabs li.active a {
           border: none;
-          color: #15376D;
+          color: #1877F2;
           background: #F2F7F8; }
-      /* line 806, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 811, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-wiki .container .article-wrapper .article-functions .timestamp {
         border: 1px solid #E5E7EB;
         border-radius: 8px;
         border-left: 6px solid #F2F7F8;
         padding: 15px; }
-        /* line 811, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+        /* line 816, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
         body.view-wiki .container .article-wrapper .article-functions .timestamp .label {
           font-weight: 500;
           font-size: 12px;
           color: #4B5563; }
-        /* line 816, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+        /* line 821, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
         body.view-wiki .container .article-wrapper .article-functions .timestamp .date {
           font-weight: 500;
           font-size: 14px;
           color: #4B5563; }
-      /* line 822, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 827, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body.view-wiki .container .article-wrapper .article-functions .see-children {
         border: none; }
-        /* line 824, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+        /* line 829, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
         body.view-wiki .container .article-wrapper .article-functions .see-children a {
-          background: #15376D;
+          background: #1877F2;
           padding: 6px 15px;
           text-align: center;
           color: white;
           font-size: 14px;
           font-weight: 500;
           border-radius: 6px; }
-          /* line 832, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+          /* line 837, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
           body.view-wiki .container .article-wrapper .article-functions .see-children a:hover, body.view-wiki .container .article-wrapper .article-functions .see-children a:focus {
             font-weight: 500;
             color: white;
             text-decoration: none; }
 
-/* line 845, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 850, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body .slick-header-column.ui-state-default {
   height: auto; }
 
-/* line 849, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 854, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body .instructor-dashboard-wrapper-2 section.idash-section {
   line-height: 1.3; }
-  /* line 852, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 857, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body .instructor-dashboard-wrapper-2 section.idash-section#membership .batch-beta-testers .request-res-section h3 {
     color: #F8F8F8; }
-  /* line 855, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 860, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body .instructor-dashboard-wrapper-2 section.idash-section#student_admin input[type="text"] {
     width: 100%;
     max-width: 650px; }
-  /* line 860, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 865, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body .instructor-dashboard-wrapper-2 section.idash-section#extensions select {
     height: 35px;
     border-color: #c8c8c8; }
     @media (max-width: 575.98px) {
-      /* line 860, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 865, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body .instructor-dashboard-wrapper-2 section.idash-section#extensions select {
         display: block;
         width: 100%; } }
     @media (max-width: 991.98px) {
-      /* line 860, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 865, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body .instructor-dashboard-wrapper-2 section.idash-section#extensions select {
         margin-bottom: 10px; } }
-  /* line 874, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 879, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body .instructor-dashboard-wrapper-2 section.idash-section#extensions input[type="text"] {
     width: 100%; }
     @media (max-width: 575.98px) {
-      /* line 877, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 882, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body .instructor-dashboard-wrapper-2 section.idash-section#extensions input[type="text"] + input {
         margin-top: 10px; } }
     @media (min-width: 576px) {
-      /* line 874, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 879, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body .instructor-dashboard-wrapper-2 section.idash-section#extensions input[type="text"] {
         max-width: 235px; } }
     @media (min-width: 768px) {
-      /* line 874, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+      /* line 879, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
       body .instructor-dashboard-wrapper-2 section.idash-section#extensions input[type="text"] {
         max-width: 300px; } }
 
-/* line 892, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 897, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body .instructor-dashboard-wrapper-2 .location-example {
   word-wrap: break-word; }
 
-/* line 899, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 904, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body div.book-wrapper {
   margin: 0 auto;
   max-width: 1600px; }
 
-/* line 905, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 910, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme input:-webkit-autofill,
 body.indigo-dark-theme input:-webkit-autofill:hover,
 body.indigo-dark-theme input:-webkit-autofill:focus,
 body.indigo-dark-theme input:-webkit-autofill:active {
   -webkit-text-fill-color: #F8F8F8; }
 
-/* line 911, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 916, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme input::placeholder {
   opacity: .9;
   color: #F8F8F8; }
 
-/* line 915, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 920, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme textarea, body.indigo-dark-theme form#wiki_revision .CodeMirror, body.indigo-dark-theme input[type="text"], body.indigo-dark-theme input[type="email"], body.indigo-dark-theme input[type="password"] {
   background: transparent;
   color: white; }
 
-/* line 919, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 924, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme * {
   accent-color: #AEC7F6;
   scrollbar-color: #F8F8F8 #0D0D0E; }
 
-/* line 923, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 928, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .find-courses, body.indigo-dark-theme .university-profile {
   background-color: #0D0D0E; }
 
-/* line 926, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 931, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .ui-state-default,
 body.indigo-dark-theme .ui-widget-content
 .ui-state-default,
@@ -2050,49 +2055,49 @@ body.indigo-dark-theme .ui-widget-header
   background: #292A2C;
   color: #F8F8F8; }
 
-/* line 934, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 939, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .idash-section .no-pending-tasks-message p {
   color: #F8F8F8; }
 
-/* line 938, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 943, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .wrapper-course-material .tabs.course-tabs {
   border-bottom: 1px solid #292A2C; }
-  /* line 941, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 946, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .wrapper-course-material .tabs.course-tabs li a {
     color: #F8F8F8; }
-    /* line 943, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 948, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.indigo-dark-theme .wrapper-course-material .tabs.course-tabs li a:hover, body.indigo-dark-theme .wrapper-course-material .tabs.course-tabs li a:visited {
       color: #DDDFE2;
       border-color: transparent; }
-    /* line 947, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 952, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.indigo-dark-theme .wrapper-course-material .tabs.course-tabs li a.active {
       color: #F8F8F8;
       border-color: #F8F8F8; }
 
-/* line 957, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 962, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .window-wrap, body.indigo-dark-theme.view-instructordash .window-wrap, body.indigo-dark-theme.view-teams .window-wrap, body.indigo-dark-theme.view-wiki .window-wrap, body.indigo-dark-theme.view-student-notes .window-wrap {
   background: none; }
 
-/* line 960, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 965, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab #email-students-beta-tip, body.indigo-dark-theme.view-instructordash #email-students-beta-tip, body.indigo-dark-theme.view-teams #email-students-beta-tip, body.indigo-dark-theme.view-wiki #email-students-beta-tip, body.indigo-dark-theme.view-student-notes #email-students-beta-tip {
   color: #111827; }
 
-/* line 965, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 970, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 a.instructor-info-action, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 a.instructor-info-action, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 a.instructor-info-action, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 a.instructor-info-action, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 a.instructor-info-action {
   background: #AEC7F6;
   color: #112F6B; }
 
-/* line 969, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 974, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .request-response-error, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .request-response-error, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .request-response-error, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .request-response-error, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .request-response-error {
   color: #FFA07A; }
 
-/* line 972, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 977, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .ui-widget-content, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .ui-widget-content, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .ui-widget-content, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .ui-widget-content, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .ui-widget-content {
   background: none;
   color: #F8F8F8;
   border: 1px solid #292A2C; }
 
-/* line 977, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 982, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .ui-accordion-header, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .ui-accordion-header, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .ui-accordion-header, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .ui-accordion-header, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .ui-accordion-header {
   background: #AEC7F6;
   color: #112F6B;
@@ -2100,7 +2105,7 @@ body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .ui-accord
   padding-top: 10px;
   padding-bottom: 10px; }
 
-/* line 984, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 989, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .ecommerce-wrapper span.tip,
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .proctoring-wrapper span.tip, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .ecommerce-wrapper span.tip,
 body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .proctoring-wrapper span.tip, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .ecommerce-wrapper span.tip,
@@ -2110,7 +2115,7 @@ body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .proct
   background: #292A2C;
   color: #F8F8F8;
   border: none; }
-  /* line 989, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 994, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .ecommerce-wrapper span.tip a.blue-button,
   body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .proctoring-wrapper span.tip a.blue-button, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .ecommerce-wrapper span.tip a.blue-button,
   body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .proctoring-wrapper span.tip a.blue-button, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .ecommerce-wrapper span.tip a.blue-button,
@@ -2124,7 +2129,7 @@ body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .proct
     box-shadow: none;
     font-weight: 500; }
 
-/* line 998, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1003, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .enrollment-button, body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 input[type=button], body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 button.btn, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .enrollment-button, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 input[type=button], body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 button.btn, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .enrollment-button, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 input[type=button], body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 button.btn, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .enrollment-button, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 input[type=button], body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 button.btn, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .enrollment-button, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 input[type=button], body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 button.btn {
   background: #AEC7F6;
   border-color: #AEC7F6;
@@ -2132,129 +2137,129 @@ body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .enrollmen
   text-shadow: none;
   box-shadow: none !important; }
 
-/* line 1005, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1010, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .instructor-nav, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .instructor-nav, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .instructor-nav, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .instructor-nav, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .instructor-nav {
   border: 1px solid #E5E7EB; }
-  /* line 1009, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1014, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .instructor-nav li:first-child button, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .instructor-nav li:first-child button, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .instructor-nav li:first-child button, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .instructor-nav li:first-child button, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .instructor-nav li:first-child button {
     border: none; }
-  /* line 1013, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1018, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .instructor-nav li button, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .instructor-nav li button, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .instructor-nav li button, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .instructor-nav li button, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .instructor-nav li button {
     border: none !important;
     border-radius: 0 !important;
     border-left: 1px solid #E5E7EB !important;
     color: #DDDFE2; }
-    /* line 1018, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 1023, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .instructor-nav li button.active-section, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .instructor-nav li button.active-section, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .instructor-nav li button.active-section, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .instructor-nav li button.active-section, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .instructor-nav li button.active-section {
       background: #AEC7F6 !important;
       color: #112F6B !important; }
-    /* line 1022, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 1027, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .instructor-nav li button:hover, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .instructor-nav li button:hover, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .instructor-nav li button:hover, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .instructor-nav li button:hover, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .instructor-nav li button:hover {
       color: #F8F8F8; }
-    /* line 1025, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 1030, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .instructor-nav li button:focus, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .instructor-nav li button:focus, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .instructor-nav li button:focus, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .instructor-nav li button:focus, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .instructor-nav li button:focus {
       box-shadow: inset 0 0 0 2px #E5E7EB !important; }
 
-/* line 1033, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1038, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .enrollment-wrapper table th, body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .enrollment-wrapper table td, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .enrollment-wrapper table th, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .enrollment-wrapper table td, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .enrollment-wrapper table th, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .enrollment-wrapper table td, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .enrollment-wrapper table th, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .enrollment-wrapper table td, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .enrollment-wrapper table th, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .enrollment-wrapper table td {
   color: #F8F8F8; }
 
-/* line 1036, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1041, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .enrollment-wrapper table .total, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .enrollment-wrapper table .total, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .enrollment-wrapper table .total, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .enrollment-wrapper table .total, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .enrollment-wrapper table .total {
   border-top: 1px solid #E5E7EB; }
-  /* line 1038, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1043, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .enrollment-wrapper table .total th, body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .enrollment-wrapper table .total td, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .enrollment-wrapper table .total th, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .enrollment-wrapper table .total td, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .enrollment-wrapper table .total th, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .enrollment-wrapper table .total td, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .enrollment-wrapper table .total th, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .enrollment-wrapper table .total td, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .enrollment-wrapper table .total th, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .enrollment-wrapper table .total td {
     color: #AEC7F6; }
 
-/* line 1044, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1049, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 #course_info > h4, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 #course_info > h4, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 #course_info > h4, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 #course_info > h4, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 #course_info > h4 {
   background: #292A2C;
   color: #F8F8F8; }
 
-/* line 1048, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1053, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 #course_info .enrollment-wrapper, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 #course_info .enrollment-wrapper, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 #course_info .enrollment-wrapper, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 #course_info .enrollment-wrapper, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 #course_info .enrollment-wrapper {
   padding-top: 0; }
-  /* line 1050, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1055, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 #course_info .enrollment-wrapper .tip, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 #course_info .enrollment-wrapper .tip, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 #course_info .enrollment-wrapper .tip, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 #course_info .enrollment-wrapper .tip, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 #course_info .enrollment-wrapper .tip {
     color: #DDDFE2; }
 
-/* line 1054, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1059, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 #course_info .enrollment-wrapper, body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .basic-wrapper, body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .course-errors-wrapper, body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .running-tasks-container, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 #course_info .enrollment-wrapper, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .basic-wrapper, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .course-errors-wrapper, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .running-tasks-container, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 #course_info .enrollment-wrapper, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .basic-wrapper, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .course-errors-wrapper, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .running-tasks-container, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 #course_info .enrollment-wrapper, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .basic-wrapper, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .course-errors-wrapper, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .running-tasks-container, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 #course_info .enrollment-wrapper, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .basic-wrapper, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .course-errors-wrapper, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .running-tasks-container {
   background: #292A2C; }
-  /* line 1056, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1061, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 #course_info .enrollment-wrapper h4, body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .basic-wrapper h4, body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .course-errors-wrapper h4, body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .running-tasks-container h4, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 #course_info .enrollment-wrapper h4, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .basic-wrapper h4, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .course-errors-wrapper h4, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .running-tasks-container h4, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 #course_info .enrollment-wrapper h4, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .basic-wrapper h4, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .course-errors-wrapper h4, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .running-tasks-container h4, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 #course_info .enrollment-wrapper h4, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .basic-wrapper h4, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .course-errors-wrapper h4, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .running-tasks-container h4, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 #course_info .enrollment-wrapper h4, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .basic-wrapper h4, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .course-errors-wrapper h4, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .running-tasks-container h4 {
     color: #F8F8F8; }
-    /* line 1058, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 1063, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 #course_info .enrollment-wrapper h4 span, body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .basic-wrapper h4 span, body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .course-errors-wrapper h4 span, body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .running-tasks-container h4 span, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 #course_info .enrollment-wrapper h4 span, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .basic-wrapper h4 span, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .course-errors-wrapper h4 span, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .running-tasks-container h4 span, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 #course_info .enrollment-wrapper h4 span, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .basic-wrapper h4 span, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .course-errors-wrapper h4 span, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .running-tasks-container h4 span, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 #course_info .enrollment-wrapper h4 span, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .basic-wrapper h4 span, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .course-errors-wrapper h4 span, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .running-tasks-container h4 span, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 #course_info .enrollment-wrapper h4 span, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .basic-wrapper h4 span, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .course-errors-wrapper h4 span, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .running-tasks-container h4 span {
       color: #DDDFE2; }
 
-/* line 1065, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1070, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .list-input li label, body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .list-input li b, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .list-input li label, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .list-input li b, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .list-input li label, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .list-input li b, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .list-input li label, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .list-input li b, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .list-input li label, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .list-input li b {
   color: #F8F8F8; }
 
-/* line 1071, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1076, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .open-response-assessment-block .open-response-assessment-main-table th, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .open-response-assessment-block .open-response-assessment-main-table th, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .open-response-assessment-block .open-response-assessment-main-table th, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .open-response-assessment-block .open-response-assessment-main-table th, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .open-response-assessment-block .open-response-assessment-main-table th {
   background: #292A2C;
   color: #F8F8F8 !important; }
-  /* line 1074, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1079, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .open-response-assessment-block .open-response-assessment-main-table th button, body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .open-response-assessment-block .open-response-assessment-main-table th button, body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .open-response-assessment-block .open-response-assessment-main-table th button, body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .open-response-assessment-block .open-response-assessment-main-table th button, body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .open-response-assessment-block .open-response-assessment-main-table th button {
     text-shadow: none !important;
     color: #F8F8F8 !important; }
 
-/* line 1079, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1084, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-statictab .instructor-dashboard-content-2 .open-response-assessment-block .open-response-assessment-main-table tbody tr:nth-child(odd), body.indigo-dark-theme.view-instructordash .instructor-dashboard-content-2 .open-response-assessment-block .open-response-assessment-main-table tbody tr:nth-child(odd), body.indigo-dark-theme.view-teams .instructor-dashboard-content-2 .open-response-assessment-block .open-response-assessment-main-table tbody tr:nth-child(odd), body.indigo-dark-theme.view-wiki .instructor-dashboard-content-2 .open-response-assessment-block .open-response-assessment-main-table tbody tr:nth-child(odd), body.indigo-dark-theme.view-student-notes .instructor-dashboard-content-2 .open-response-assessment-block .open-response-assessment-main-table tbody tr:nth-child(odd) {
   background: #292A2C;
   color: #F8F8F8 !important; }
 
-/* line 1087, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1092, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .CodeMirror-scroll {
   background: #0D0D0E; }
-  /* line 1089, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1094, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .CodeMirror-scroll * {
     color: #F8F8F8 !important; }
 
-/* line 1094, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1099, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki #previewModal .inner-wrapper {
   background: #292A2C; }
-  /* line 1096, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1101, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki #previewModal .inner-wrapper iframe {
     background: #fafafa; }
-  /* line 1099, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1104, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki #previewModal .inner-wrapper .close-modal {
     color: #F8F8F8; }
-  /* line 1102, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1107, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki #previewModal .inner-wrapper h1 {
     color: #F8F8F8; }
-  /* line 1105, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1110, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki #previewModal .inner-wrapper header h2 {
     color: #F8F8F8;
     text-shadow: none; }
 
-/* line 1112, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1117, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .wiki-wrapper .alert.denied, body.indigo-dark-theme.view-wiki .wiki-wrapper .alert.alert-error {
   color: #F8F8F8;
   background: #292A2C;
   border: none; }
 
-/* line 1117, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1122, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .main-article .alert {
   color: #F8F8F8;
   background: #292A2C;
   border: none; }
 
-/* line 1122, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1127, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .wiki-wrapper label {
   color: #F8F8F8 !important; }
-  /* line 1124, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1129, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .wiki-wrapper label section.wiki .main-article {
     color: #F8F8F8; }
 
-/* line 1129, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1134, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .wiki-wrapper #alert_stat_bar .paragon__alert-warning {
   color: #F8F8F8;
   background: #292A2C;
   border: none; }
-  /* line 1133, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1138, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .wiki-wrapper #alert_stat_bar .paragon__alert-warning button.paragon__close {
     background: none !important;
     box-shadow: none !important;
@@ -2262,178 +2267,178 @@ body.indigo-dark-theme.view-wiki .wiki-wrapper #alert_stat_bar .paragon__alert-w
     opacity: 1 !important;
     font-size: 1.2rem; }
 
-/* line 1144, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1149, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .diff-container table tr.insert td {
   background: #54CF5E;
   color: #F8F8F8; }
 
-/* line 1148, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1153, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .diff-container table tr.delete td {
   background: #FFA07A;
   color: #F8F8F8; }
 
-/* line 1154, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1159, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .table.table-striped tr:nth-child(2n) {
   background: #292A2C; }
 
-/* line 1158, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1163, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .table.table-striped td a {
   color: #AEC7F6 !important; }
 
-/* line 1163, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1168, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .directory-toolbar {
   background: #292A2C; }
-  /* line 1165, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1170, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .directory-toolbar a.btn {
     background: #AEC7F6 !important;
     border-color: #AEC7F6 !important;
     box-shadow: none !important;
     color: #112F6B !important;
     text-shadow: none; }
-  /* line 1173, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1178, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .directory-toolbar .filter-clear a {
     color: #AEC7F6 !important; }
 
-/* line 1179, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1184, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .wiki-wrapper #cheatsheet-body {
   background: #292A2C;
   color: #F8F8F8; }
-  /* line 1182, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1187, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .wiki-wrapper #cheatsheet-body pre {
     background: #0D0D0E;
     color: #F8F8F8; }
 
-/* line 1188, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1193, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .wiki-wrapper #cheatsheetModal .inner-wrapper {
   background: #292A2C;
   box-shadow: none; }
-  /* line 1191, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1196, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .wiki-wrapper #cheatsheetModal .inner-wrapper button.close-modal {
     color: #F8F8F8 !important; }
 
-/* line 1197, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1202, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .btn.btn-large, body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .btn.btn-danger {
   background: none;
   color: #F8F8F8 !important;
   border-color: #F8F8F8 !important;
   text-shadow: none !important;
   box-shadow: none !important; }
-  /* line 1203, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1208, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .btn.btn-large:hover, body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .btn.btn-danger:hover {
     background: none !important;
     color: #F8F8F8 !important;
     border-color: #F8F8F8 !important; }
 
-/* line 1209, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1214, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .btn.btn-primary, body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .btn.btn-brand {
   background: #AEC7F6 !important;
   border-color: #AEC7F6 !important;
   color: #112F6B !important;
   text-shadow: none !important;
   box-shadow: none; }
-  /* line 1215, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1220, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .btn.btn-primary:hover, body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki .btn.btn-brand:hover {
     background: #AEC7F6 !important;
     border-color: #AEC7F6 !important;
     color: #112F6B !important; }
 
-/* line 1221, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1226, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki.history .accordion {
   background: #292A2C;
   border: none; }
-  /* line 1224, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1229, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .wiki-wrapper section.wiki.history .accordion small {
     color: #F8F8F8; }
 
-/* line 1230, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1235, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .container .wiki .breadcrumbs-header {
   background: #292A2C; }
-  /* line 1233, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1238, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .container .wiki .breadcrumbs-header .global-functions a.add-article-btn {
     background: #AEC7F6 !important;
     color: #112F6B !important; }
-  /* line 1240, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1245, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .container .wiki .breadcrumbs-header .breadcrumb li:after {
     color: #DDDFE2; }
-  /* line 1243, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1248, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .container .wiki .breadcrumbs-header .breadcrumb li a {
     color: #DDDFE2; }
 
-/* line 1249, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1254, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .container .wiki .main-article {
   color: #F8F8F8; }
 
-/* line 1253, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1258, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-wiki .container .article-wrapper {
   border: 1px solid #292A2C; }
-  /* line 1255, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1260, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .container .article-wrapper .main-article {
     color: #F8F8F8 !important; }
-    /* line 1257, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 1262, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.indigo-dark-theme.view-wiki .container .article-wrapper .main-article p {
       color: #F8F8F8; }
-    /* line 1260, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 1265, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.indigo-dark-theme.view-wiki .container .article-wrapper .main-article h3.entry-title {
       color: #F8F8F8; }
-  /* line 1267, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1272, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .container .article-wrapper .article-functions .nav-tabs li a {
     color: #AEC7F6; }
-    /* line 1269, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 1274, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.indigo-dark-theme.view-wiki .container .article-wrapper .article-functions .nav-tabs li a:hover {
       background: #292A2C;
       color: #F8F8F8; }
-    /* line 1273, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 1278, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.indigo-dark-theme.view-wiki .container .article-wrapper .article-functions .nav-tabs li a .icon {
       color: #DDDFE2; }
-  /* line 1278, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1283, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .container .article-wrapper .article-functions .nav-tabs li.active a {
     background: #292A2C;
     color: #F8F8F8; }
-  /* line 1285, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1290, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .container .article-wrapper .article-functions .timestamp {
     border: 1px solid #292A2C;
     border-left: 6px solid #292A2C; }
-    /* line 1288, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 1293, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.indigo-dark-theme.view-wiki .container .article-wrapper .article-functions .timestamp .label {
       color: #F8F8F8; }
-    /* line 1291, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 1296, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.indigo-dark-theme.view-wiki .container .article-wrapper .article-functions .timestamp .date {
       color: #F8F8F8; }
-  /* line 1296, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1301, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-wiki .container .article-wrapper .article-functions .see-children a {
     background: #AEC7F6;
     color: #112F6B; }
-    /* line 1299, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 1304, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.indigo-dark-theme.view-wiki .container .article-wrapper .article-functions .see-children a:hover, body.indigo-dark-theme.view-wiki .container .article-wrapper .article-functions .see-children a:focus {
       color: #112F6B; }
 
-/* line 1308, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1313, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .container.about {
   color: #DDDFE2; }
-  /* line 1310, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1315, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .container.about h1 {
     color: #AEC7F6; }
-  /* line 1313, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1318, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .container.about a {
     color: #AEC7F6; }
-  /* line 1317, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1322, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .container.about .graphic-img img {
     display: none; }
-    /* line 1319, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 1324, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.indigo-dark-theme .container.about .graphic-img img.dark {
       display: block; }
 
-/* line 1325, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1330, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .modal {
   background: #292A2C !important; }
-  /* line 1327, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1332, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .modal .modal-header {
     color: #F8F8F8 !important; }
-  /* line 1330, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1335, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .modal select, body.indigo-dark-theme .modal textarea {
     background: transparent;
     color: white; }
-  /* line 1334, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1339, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .modal input[type=submit] {
     background: #AEC7F6;
     border-color: #AEC7F6;
@@ -2442,87 +2447,87 @@ body.indigo-dark-theme .modal {
     font-size: 14px;
     font-weight: 500; }
 
-/* line 1343, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1348, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .wrapper-member-select {
   background: #292A2C !important; }
-  /* line 1345, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1350, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .wrapper-member-select select {
     background: none;
     color: #F8F8F8; }
 
-/* line 1350, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1355, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .auth-list-container .info {
   color: #F8F8F8 !important; }
 
-/* line 1354, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1359, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#membership .batch-beta-testers .request-res-section h3 {
   color: #F8F8F8; }
 
-/* line 1357, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1362, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 .msg-error {
   background: #292A2C !important;
   border-color: #FFA07A !important;
   color: #FFA07A !important; }
 
-/* line 1362, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1367, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 .msg-confirm {
   background: #292A2C;
   border-top: 2px solid #54CF5E;
   color: #54CF5E; }
 
-/* line 1367, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1372, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 .copy-error {
   color: #FFA07A; }
 
-/* line 1370, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1375, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 .message-error {
   background: #292A2C;
   border-color: #FFA07A; }
-  /* line 1373, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1378, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .instructor-dashboard-wrapper-2 .message-error .message-title {
     color: #FFA07A; }
-  /* line 1376, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1381, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .instructor-dashboard-wrapper-2 .message-error .message-copy {
     color: #F8F8F8; }
 
-/* line 1380, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1385, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 .idash-section .message-confirmation {
   background: #0D0D0E;
   border-color: #54CF5E; }
-  /* line 1383, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1388, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .instructor-dashboard-wrapper-2 .idash-section .message-confirmation .message-title {
     color: #54CF5E; }
 
-/* line 1387, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1392, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .cohort-management-settings .cohort-management-details .cohort-management-settings {
   background: transparent; }
 
-/* line 1390, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1395, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .cohort-management-group-header {
   background: #292A2C; }
 
-/* line 1393, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1398, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .cohort-management-group-setup {
   color: #F8F8F8; }
 
-/* line 1396, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1401, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .cohort-management-settings .cohort-management-details,
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .cohort-management-settings .cohort-management-group-add {
   background: #292A2C; }
 
-/* line 1400, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1405, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .wrapper-tabs .tab .toggle-button {
   text-shadow: none;
   color: #F8F8F8; }
 
-/* line 1404, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1409, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .wrapper-tabs .tab.is-selected .toggle-button {
   background: #AEC7F6;
   border-color: #AEC7F6;
   color: #112F6B;
   text-decoration: none; }
 
-/* line 1410, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1415, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .cohort-management-settings .form-submit,
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .cohort-management-nav .action-create,
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .file-upload-form .action-submit {
@@ -2532,55 +2537,55 @@ body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#coh
   text-shadow: none !important;
   box-shadow: none !important; }
 
-/* line 1419, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1424, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .cohort-management-supplemental {
   background: #292A2C; }
-  /* line 1421, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1426, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .cohort-management-supplemental button {
     color: #F8F8F8;
     text-decoration: underline; }
 
-/* line 1426, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1431, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .file-upload-form .form-fields .input-file {
   color: #F8F8F8; }
 
-/* line 1429, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1434, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .toggle-cohort-management-secondary,
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .toggle-cohort-management-discussions {
   color: #AEC7F6; }
 
-/* line 1433, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1438, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .cohort-management-settings, body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#cohort_management .cohort-management-settings .form-title {
   background: #292A2C; }
 
-/* line 1436, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1441, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#data_download .problem-browser .block-browser {
   background: #292A2C; }
 
-/* line 1439, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1444, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#membership .batch-enrollment .request-res-section h3 {
   color: #FFA07A; }
 
-/* line 1442, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1447, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#membership .enroll-option .hint, body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#membership .enroll-option .hint {
   background: #292A2C; }
-  /* line 1444, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1449, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#membership .enroll-option .hint p, body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#membership .enroll-option .hint p {
     color: inherit !important; }
-  /* line 1447, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1452, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#membership .enroll-option .hint .hint-caret, body.indigo-dark-theme .instructor-dashboard-wrapper-2 section.idash-section#membership .enroll-option .hint .hint-caret {
     border-right: 8px solid #292A2C;
     border-top: 8px solid #292A2C; }
 
-/* line 1454, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1459, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .member-list .label {
   color: #F8F8F8 !important;
   background: #292A2C !important; }
 
-/* line 1459, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1464, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .bottom-bar {
   background: #292A2C !important; }
-  /* line 1461, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1466, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .bottom-bar input[type="button"] {
     background: #AEC7F6 !important;
     border-color: #AEC7F6 !important;
@@ -2589,200 +2594,200 @@ body.indigo-dark-theme .bottom-bar {
     font-size: 14px;
     font-weight: 500; }
 
-/* line 1472, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1477, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams .page-header .page-title {
   color: #DDDFE2; }
 
-/* line 1475, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1480, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams .page-header .page-description {
   color: #F8F8F8; }
 
-/* line 1479, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1484, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams .page-content-nav .nav-item {
   color: #F8F8F8; }
-  /* line 1481, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1486, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-teams .page-content-nav .nav-item.is-active {
     border-color: #AEC7F6; }
 
-/* line 1484, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1489, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams .page-content-main span.listing-count, body.indigo-dark-theme.view-teams .page-content-main span.listing-sort .field-label {
   color: #F8F8F8; }
 
-/* line 1489, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1494, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams ul.topics-list li.topic-card {
   background-color: #0D0D0E; }
-  /* line 1492, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1497, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-teams ul.topics-list li.topic-card div.wrapper-card-meta {
     background-color: #0D0D0E; }
 
-/* line 1498, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1503, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams ul.cards-list li.list-card {
   background-color: #0D0D0E; }
-  /* line 1501, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1506, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-teams ul.cards-list li.list-card div.wrapper-card-meta {
     background-color: #0D0D0E; }
 
-/* line 1507, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1512, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams .teams-content .teams-main .team-edit-fields .team-required-fields .u-field-title, body.indigo-dark-theme.view-teams .teams-content .teams-main .team-edit-fields .team-optional-fields .u-field-title {
   color: #F8F8F8; }
 
-/* line 1512, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1517, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams .listing-tools {
   color: #F8F8F8; }
 
-/* line 1514, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1519, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams .u-field-message .u-field-message-help, body.indigo-dark-theme.view-teams .u-field-message .u-field-message-notification {
   color: grey; }
 
-/* line 1519, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1524, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams .team-profile .page-content-secondary {
   color: grey; }
 
-/* line 1525, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1530, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams .card .card-type, body.indigo-dark-theme.view-teams .card .card-description {
   color: grey; }
 
-/* line 1529, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1534, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams .card .wrapper-card-meta {
   background: #292A2C; }
-  /* line 1531, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1536, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-teams .card .wrapper-card-meta .meta-detail {
     color: #DDDFE2; }
 
-/* line 1534, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1539, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams .card .card-actions .action-view {
   border-color: #AEC7F6;
   color: #AEC7F6; }
-  /* line 1537, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1542, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-teams .card .card-actions .action-view:hover {
     background-color: #AEC7F6;
     color: #292A2C; }
 
-/* line 1544, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1549, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams .btn-secondary, body.indigo-dark-theme.view-teams .btn-link,
 body.indigo-dark-theme.view-teams .edit-members .action-remove-member {
   color: #AEC7F6; }
 
-/* line 1549, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1554, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams .action-primary {
   background: #AEC7F6;
   color: #292A2C; }
 
-/* line 1554, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1559, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-teams .teams-content #teams-message.wrapper-msg {
   background: #292A2C; }
-  /* line 1556, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1561, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-teams .teams-content #teams-message.wrapper-msg div.msg {
     color: #F8F8F8; }
 
-/* line 1562, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1567, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme .book-wrapper .book-sidebar {
   background: #292A2C; }
-  /* line 1564, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1569, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme .book-wrapper .book-sidebar #booknav a {
     color: #F8F8F8; }
-    /* line 1566, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    /* line 1571, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     body.indigo-dark-theme .book-wrapper .book-sidebar #booknav a:hover {
       color: #DDDFE2; }
 
-/* line 1575, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1580, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-student-notes .wrapper-student-notes {
   background: #0D0D0E; }
 
-/* line 1579, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1584, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-student-notes .wrapper-title .page-title .page-subtitle {
   color: #F8F8F8; }
 
-/* line 1584, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1589, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-student-notes .wrapper-tabs .tab-list .tab .tab-label {
   color: lightgrey; }
 
-/* line 1589, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1594, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-student-notes .wrapper-tabs .tab-list .tab.is-active .tab-label {
   color: #F8F8F8;
   border-bottom-color: #DDDFE2; }
 
-/* line 1595, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1600, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-student-notes .wrapper-tabs .tab-list #view-search-results .action-close {
   color: #AEC7F6;
   background: #0D0D0E;
   border-color: transparent;
   box-shadow: none; }
 
-/* line 1603, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1608, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-student-notes .listing-tools {
   color: lightgrey; }
 
-/* line 1605, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1610, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-student-notes .placeholder {
   border-color: #AEC7F6;
   background: #292A2C; }
-  /* line 1609, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1614, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-student-notes .placeholder .placeholder-title {
     color: #F8F8F8; }
 
-/* line 1613, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1618, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-student-notes .wrapper-notes-search .search-notes-input {
   background: #292A2C;
   color: #F8F8F8;
   border: 1px solid grey; }
 
-/* line 1618, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1623, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-student-notes .wrapper-notes-search .search-notes-submit {
   background: #AEC7F6;
   border-color: #AEC7F6; }
 
-/* line 1624, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1629, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-student-notes .ui-loading {
   border-color: #AEC7F6;
   background: #0D0D0E; }
 
-/* line 1631, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1636, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-student-notes .tab-panel.note-group .note .wrapper-note-excerpts {
   border-color: orange; }
-  /* line 1633, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1638, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-student-notes .tab-panel.note-group .note .wrapper-note-excerpts .note-excerpt {
     background: orange;
     color: #0D0D0E; }
-  /* line 1638, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1643, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-student-notes .tab-panel.note-group .note .wrapper-note-excerpts .note-comments .note-comment-p {
     color: #F8F8F8; }
 
-/* line 1641, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1646, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-student-notes .tab-panel.note-group .note:hover .note-excerpt {
   background: #FFA07A; }
 
-/* line 1647, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1652, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-student-notes .tab-panel.note-group .note footer.reference .wrapper-reference-content a.reference-meta {
   color: #AEC7F6; }
 
-/* line 1650, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1655, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 body.indigo-dark-theme.view-student-notes .tab-panel.note-group .note footer.reference .wrapper-reference-content .reference-meta {
   color: #F8F8F8; }
-  /* line 1652, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1657, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   body.indigo-dark-theme.view-student-notes .tab-panel.note-group .note footer.reference .wrapper-reference-content .reference-meta::after {
     color: #DDDFE2; }
 
-/* line 1661, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1666, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 #data_download .profile-data-display-table {
   overflow-x: auto; }
 
-/* line 1665, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1670, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 #data_download .slick-cell {
   padding: 3px;
   height: 30px; }
-  /* line 1669, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1674, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   #data_download .slick-cell.active {
-    box-shadow: inset 0 0 0 2px #15376D; }
-    /* line 1672, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+    box-shadow: inset 0 0 0 2px #1877F2; }
+    /* line 1677, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
     .indigo-dark-theme #data_download .slick-cell.active {
       box-shadow: inset 0 0 0 2px #AEC7F6; }
-  /* line 1677, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+  /* line 1682, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
   #data_download .slick-cell a {
     display: inline-block;
     padding: 0 5px; }
 
-/* line 1688, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
+/* line 1693, /openedx/themes/indigo/lms/static/sass/partials/lms/theme/_extras.scss */
 .open-response-assessment-block .open-response-assessment-main-table th button:focus {
   outline: revert; }
 
@@ -3031,7 +3036,7 @@ header.global-header {
         /* line 58, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
         header.global-header .nav-links .main .nav-tab a.active, header.global-header .nav-links .main .nav-tab a:hover {
           color: #212529;
-          border-bottom: 2px solid #15376D; }
+          border-bottom: 2px solid #1877F2; }
     /* line 65, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
     header.global-header .nav-links .secondary {
       margin: 0;
@@ -3041,7 +3046,7 @@ header.global-header {
       header.global-header .nav-links .secondary .toggle-user-dropdown {
         padding: 9px 15px;
         background: #F2F7F8;
-        color: #15376D;
+        color: #1877F2;
         font-size: 14px;
         font-weight: 500;
         line-height: 20px;
@@ -3119,7 +3124,7 @@ header.global-header {
   z-index: 9999;
   margin: 0;
   border: none;
-  border-bottom: 2px solid #15376D;
+  border-bottom: 2px solid #1877F2;
   width: 100%; }
   /* line 157, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
   .mobile-menu .mobile-nav-link a {
@@ -3160,7 +3165,7 @@ header.global-header {
   .theme-toggle-button .light-theme-icon, .theme-toggle-button .dark-theme-icon {
     width: 18px;
     height: 1.5rem;
-    color: #15376D; }
+    color: #1877F2; }
     /* line 197, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
     .theme-toggle-button .light-theme-icon svg, .theme-toggle-button .dark-theme-icon svg {
       width: inherit;
@@ -3188,7 +3193,7 @@ header.global-header {
         height: 0; }
         /* line 225, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
         .theme-toggle-button #toggle-switch .switch input:focus ~ .slider {
-          outline: 2px solid #15376D;
+          outline: 2px solid #1877F2;
           outline-offset: 1px; }
       /* line 233, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
       .theme-toggle-button #toggle-switch .switch .slider {
@@ -3232,7 +3237,7 @@ body.indigo-dark-theme {
     z-index: 9999;
     margin: 0;
     border: none;
-    border-bottom: 2px solid #15376D;
+    border-bottom: 2px solid #1877F2;
     width: 100%; }
     /* line 283, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
     body.indigo-dark-theme .mobile-menu .mobile-nav-link a {
@@ -3481,7 +3486,7 @@ body.indigo-dark-theme {
       padding: 6px;
       height: 38px;
       border-radius: 6px;
-      background: #15376D;
+      background: #1877F2;
       font-family: "Inter", sans-serif; }
       @media (min-width: 576px) {
         /* line 161, /openedx/themes/indigo/lms/static/sass/dashboard/_dashboard.scss */
@@ -3489,7 +3494,7 @@ body.indigo-dark-theme {
           min-width: 100px; } }
       /* line 178, /openedx/themes/indigo/lms/static/sass/dashboard/_dashboard.scss */
       .search-area .search-field-wrapper .button-holder button:hover {
-        background: #15376D;
+        background: #1877F2;
         opacity: .8; }
   /* line 184, /openedx/themes/indigo/lms/static/sass/dashboard/_dashboard.scss */
   .search-area .search-field-wrapper .input-holder {
@@ -3619,7 +3624,7 @@ body.indigo-dark-theme {
       .dashboard .main-container .my-courses .listing-courses .course-item .course-container .course .wrapper-course-details .enter-course {
         display: block;
         border-radius: 6px;
-        background: #15376D;
+        background: #1877F2;
         text-align: center;
         padding: 9px 17px;
         font-size: 14px;
@@ -3712,8 +3717,8 @@ body.indigo-dark-theme {
         width: 100%;
         font-size: 14px;
         line-height: 20px;
-        border: 1px solid #15376D !important;
-        background: #15376D !important;
+        border: 1px solid #1877F2 !important;
+        background: #1877F2 !important;
         color: #fff;
         padding: 8px 15px;
         border-radius: 6px;
@@ -3870,7 +3875,7 @@ body.indigo-dark-theme {
         .courses-container .courses .courses-listing li .course .course-info .learn-more {
           display: block;
           border-radius: 6px;
-          background: #15376D;
+          background: #1877F2;
           text-align: center;
           padding: 9px 17px;
           font-size: 14px;
@@ -3923,7 +3928,7 @@ body.indigo-dark-theme {
       .saerch-bar-discover .filters .filters-inner ul li button {
         padding: 2px 10px;
         border-radius: 12px;
-        background: #15376D !important;
+        background: #1877F2 !important;
         color: #fff;
         font-size: 14px;
         line-height: 20px; }
@@ -3957,7 +3962,7 @@ body.indigo-dark-theme {
           padding: 6px;
           height: 38px;
           border-radius: 6px;
-          background: #15376D;
+          background: #1877F2;
           font-family: "Inter", sans-serif;
           border: none;
           box-shadow: none !important; }
@@ -3967,7 +3972,7 @@ body.indigo-dark-theme {
               min-width: 100px; } }
           /* line 233, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
           .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input .button-holder button:hover {
-            background: #15376D;
+            background: #1877F2;
             opacity: .8; }
       /* line 239, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
       .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input .input-holder {
@@ -4094,8 +4099,8 @@ body.indigo-dark-theme {
           color: #191B23; }
           /* line 362, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
           .filter-block .search-facets .search-facets-lists ul.facet-list li button.facet-option.selected .count {
-            background: #15376D;
-            border-color: #15376D; }
+            background: #1877F2;
+            border-color: #1877F2; }
             /* line 365, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
             .filter-block .search-facets .search-facets-lists ul.facet-list li button.facet-option.selected .count:before {
               content: "\f00c";
@@ -4356,7 +4361,7 @@ body.indigo-dark-theme .courses-container .courses .courses-listing li .course {
   padding: 8px 15px;
   color: #fff;
   border-radius: 6px;
-  background: #15376D;
+  background: #1877F2;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -4540,7 +4545,7 @@ body.indigo-dark-theme .courses-container .courses .courses-listing li .course {
       .course-info.about .course-sidebar header .social-sharing .sharing-message {
         background: white;
         border: none;
-        border-top: 4px solid #15376D;
+        border-top: 4px solid #1877F2;
         color: #000;
         font: 10px/15px "Inter", sans-serif;
         padding: 10px; }
@@ -4743,7 +4748,7 @@ body.indigo-dark-theme .course-info.about .course-sidebar {
       display: block;
       margin: 0 0 10px;
       font-size: 30px;
-      color: #15376D; }
+      color: #1877F2; }
 
 /* line 67, /openedx/themes/indigo/lms/static/sass/courseware/_bookmarks.scss */
 .page-content-container .search-results {
@@ -4815,7 +4820,7 @@ body.indigo-dark-theme .course-info.about .course-sidebar {
     line-height: 16px;
     font-weight: 500;
     color: #fff;
-    background: #15376D;
+    background: #1877F2;
     padding: 9px 13px;
     border-radius: 6px;
     bottom: 0;
@@ -5014,7 +5019,7 @@ section.home {
           padding: 6px;
           height: 38px;
           border-radius: 6px;
-          background: #15376D;
+          background: #1877F2;
           font-family: "Inter", sans-serif;
           border: none; }
           @media (min-width: 576px) {
@@ -5023,7 +5028,7 @@ section.home {
               min-width: 100px; } }
           /* line 98, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
           #main .home.style-logout header .outer-wrapper .title .course-search .search-field-wrapper .button-holder button:hover {
-            background: #15376D;
+            background: #1877F2;
             opacity: .8; }
         /* line 104, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
         #main .home.style-logout header .outer-wrapper .title .course-search .search-field-wrapper .input-holder {
@@ -5229,7 +5234,7 @@ body.indigo-dark-theme #main .home.style-logout header {
           opacity: 1; }
           /* line 117, /openedx/themes/indigo/lms/static/sass/programs/_programs.scss */
           .program-list-wrapper .program-list-container .program-cards-container .program-card .card-link .banner-image-container {
-            background: #15376D; }
+            background: #1877F2; }
             /* line 119, /openedx/themes/indigo/lms/static/sass/programs/_programs.scss */
             .program-list-wrapper .program-list-container .program-cards-container .program-card .card-link .banner-image-container picture {
               display: block; }
@@ -5274,7 +5279,7 @@ body.indigo-dark-theme #main .home.style-logout header {
         font-weight: 500; }
       /* line 162, /openedx/themes/indigo/lms/static/sass/programs/_programs.scss */
       .program-list-wrapper .sidebar .program-advertise a.btn {
-        background: #15376D;
+        background: #1877F2;
         border-radius: 6px;
         font-size: 14px;
         line-height: 18px;
@@ -5308,7 +5313,7 @@ body.indigo-dark-theme #main .home.style-logout header {
           margin: 0 0 20px; } }
     /* line 196, /openedx/themes/indigo/lms/static/sass/programs/_programs.scss */
     .program-list-wrapper .empty-programs-message a.btn {
-      background: #15376D;
+      background: #1877F2;
       border-radius: 6px;
       font-size: 14px;
       line-height: 18px;
@@ -5436,8 +5441,8 @@ body.indigo-dark-theme #main .home.style-logout header {
             display: none; }
           /* line 314, /openedx/themes/indigo/lms/static/sass/programs/_programs.scss */
           .program-details-wrapper .col-12.flex-column .program-details-content .course-list-headings .remaining-group .program-course-card a.btn-brand, .program-details-wrapper .col-12.flex-column .program-details-content .course-list-headings .remaining-group .program-course-card button.btn-brand, .program-details-wrapper .col-12.flex-column .program-details-content .course-list-headings .remaining-group .motivating-section a.btn-brand, .program-details-wrapper .col-12.flex-column .program-details-content .course-list-headings .remaining-group .motivating-section button.btn-brand, .program-details-wrapper .col-12.flex-column .program-details-content .course-list-headings .in-progress-group .program-course-card a.btn-brand, .program-details-wrapper .col-12.flex-column .program-details-content .course-list-headings .in-progress-group .program-course-card button.btn-brand, .program-details-wrapper .col-12.flex-column .program-details-content .course-list-headings .in-progress-group .motivating-section a.btn-brand, .program-details-wrapper .col-12.flex-column .program-details-content .course-list-headings .in-progress-group .motivating-section button.btn-brand, .program-details-wrapper .col-12.flex-column .program-details-content .course-list-headings .completed-group .program-course-card a.btn-brand, .program-details-wrapper .col-12.flex-column .program-details-content .course-list-headings .completed-group .program-course-card button.btn-brand, .program-details-wrapper .col-12.flex-column .program-details-content .course-list-headings .completed-group .motivating-section a.btn-brand, .program-details-wrapper .col-12.flex-column .program-details-content .course-list-headings .completed-group .motivating-section button.btn-brand {
-            background: #15376D;
-            border-color: #15376D;
+            background: #1877F2;
+            border-color: #1877F2;
             height: auto;
             display: inline-block;
             padding: 5px 10px;
@@ -5513,7 +5518,7 @@ body.indigo-dark-theme #main .home.style-logout header {
         height: 200px; }
       /* line 396, /openedx/themes/indigo/lms/static/sass/programs/_programs.scss */
       .program-details-wrapper .program-sidebar .aside .progress-circle-wrapper .progress-circle .complete {
-        stroke: #15376D; }
+        stroke: #1877F2; }
     /* line 401, /openedx/themes/indigo/lms/static/sass/programs/_programs.scss */
     .program-details-wrapper .program-sidebar .aside .progress-label {
       top: 82px;
@@ -5766,7 +5771,7 @@ body.certificate.indigo-dark-theme {
 
 /* line 2, /openedx/themes/indigo/lms/static/sass/xblock/_xblock.scss */
 .wrap-instructor-info a.instructor-info-action {
-  background: #15376D !important;
+  background: #1877F2 !important;
   color: white !important; }
 
 /* line 7, /openedx/themes/indigo/lms/static/sass/xblock/_xblock.scss */
@@ -6310,7 +6315,7 @@ body.certificate.indigo-dark-theme {
 
 /* line 493, /openedx/themes/indigo/lms/static/sass/xblock/_xblock.scss */
 .indigo-dark-theme .xblock.xmodule_display.xmodule_HtmlBlock .blue-text {
-  color: #15376D; }
+  color: #1877F2; }
 
 /* line 494, /openedx/themes/indigo/lms/static/sass/xblock/_xblock.scss */
 .indigo-dark-theme .xblock.xmodule_display.xmodule_HtmlBlock ul li::marker,

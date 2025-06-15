@@ -1,0 +1,13 @@
+.view-howitworks{
+    &.not-signedin{
+        .wrapper-content-header{
+            background-color: #3391c3;
+            background-image: -webkit-linear-gradient(#3391c3, #0075b4, #005e90);
+            background-image: linear-gradient(#3391c3, #0075b4, #005e90);
+            background-image: none;
+            padding-bottom: 80px;
+            padding-top: 80px;
+        }    
+    }
+    
+}

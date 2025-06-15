@@ -335,11 +335,13 @@ nav.wrapper-preview-menu {
 
   .tabs.course-tabs {
     margin: 0 0 10px;
-    border-bottom: 1px solid $gray-light;
+    border-bottom: 2px solid #ed6c4d;
     padding: 0;
+    display: flex;
+    justify-content: flex-start;
     li {
-      margin: 0 32px 0 0;
-
+      margin: 0 0px 0 0;
+      background-color: lightgray;
       &.more {
         margin-right: 0;
       }
@@ -354,14 +356,17 @@ nav.wrapper-preview-menu {
         border-width: 2px;
         font-size: 14px;
         font-weight: 500;
-        color: $light-dark;
+        color: white;
+        
         &:hover, &:visited {
-          color: $dark;
+          background-color: transparent;
+          color: white;
           border-color: transparent;
         }
         &.active {
-          color: $dark;
-          border-color: $primary;
+          background-color: #ed6c4d;
+          color: white;
+          border-color: #ed6c4d;
         }
       }
     }
